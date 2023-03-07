@@ -1,0 +1,36 @@
+.arrow {
+    &__button {
+        height: 90px;
+        width: 60px;
+        background-color: var(--color-background);
+        border: None;
+    }
+    &__arrow {
+        cursor: pointer;
+        animation: blink 1s steps(5, start) infinite;
+        fill: var(--color-white);
+    }
+    &__arrow:hover {
+        fill: var(--color-black);
+        transition: 300ms;
+    }
+    &__animationAtive {
+        transition: 300ms;
+        fill: var(--color-black);
+        transform: rotate(180deg);
+    }
+    &__animationAtive:hover {
+        fill: var(--color-white);
+        transition: 300ms;
+    }
+}
+
+.about{
+    display: none;
+    &__text {
+        display: flex;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}

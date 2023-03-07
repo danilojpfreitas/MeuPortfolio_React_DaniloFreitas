@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Django Rest Framework - Event2All",
+        "type": "Back End",
+        "description": "Desenvolvimento de uma API com Django Rest Framework. Toda documentação foi realizada no Swagger e no Insomnia. Tecnologias: Python, Django Rest Framework e Docker.",
+        "photo": "../../../assets/projetos/event2all.png",
+        "github": "https://github.com/danilojpfreitas/Event2All_DjangoRestFramework_DaniloFreitas",
+        "page": "",
+        "titlePage": ""
+    },
+    {
+        "name": "Event2All",
+        "type": "Back End",
+        "description": "Desenvolvimento de uma API para o Event2All. Toda documentação foi realizada no Swagger e deploy no Heroku. Tecnologias: MySQL, TypeScript com Typeorm. Documentação seguindo os requisitos Rest API.",
+        "photo": "",
+        "github": "https://github.com/danilojpfreitas/Event2All_DjangoRestFramework_DaniloFreitas",
+        "page": "https://app.swaggerhub.com/apis-docs/DANILOJPFREITAS_1/Event2All/1.0.0",
+        "titlePage": "Swagger"
+    },
+    {
+        "name": "API La Vie",
+        "type": "Back End",
+        "description": "API para o gerenciamento de uma clínica de Psicologia. Tecnologias: MySQL, Node.js com Express e Sequelize. Documentação seguindo os requisitos Rest API.",
+        "photo": "",
+        "github": "https://github.com/danilojpfreitas/Hands_On03_La_Vie",
+        "page": "",
+        "titlePage": ""
+    }
+]

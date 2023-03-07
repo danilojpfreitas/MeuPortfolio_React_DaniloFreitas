@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400&family=Smooch&display=swap');
+
+:root {
+  --color-white: #fff;
+  --color-background: #7f7fd5, #86a8e7, #91eae4;
+  --color-animation: rgba(73, 73, 73, 0.61);
+  --color-black: #111;
+  --color-h2: #7f7fd5;
+  --color-h4: #86a8e7;
+  --color-h6: #91eae4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-size: 30px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+body {
+  background: linear-gradient(90deg, var(--color-background)) no-repeat center center fixed;
+  background-size: cover;
+}

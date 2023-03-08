@@ -1,29 +1,29 @@
 
 [
     {
-    "id": 0,
+    "id": 1,
     "name": "Celular",
     "dados": {
         "link": "tel:5548991300638",
-        "icon": "../../assets/contato/phone-solid.svg",
+        "photo": "/assets/contato/phone-solid.svg",
         "data": "+55 48 99130-0638"
     }
 },
 {
-    "id": 1,
+    "id": 2,
     "name": "Email",
     "dados": {
         "link": "mail:danilojpfreitas@gmail.com",
-        "icon": "../../assets/contato/envelope-solid.svg",
+        "photo": "/assets/contato/envelope-solid.svg",
         "data": "danilojpfreitas@gmail.com"
     }
 },
 {
-    "id": 2,
+    "id": 3,
     "name": "LinkedIn",
     "dados": {
         "link": "https://www.linkedin.com/in/danilo-freitas-dev/",
-        "icon": "../../assets/contato/linkedin-in.svg",
+        "photo": "/assets/contato/linkedin-in.svg",
         "data": "Danilo Freitas"
     }
 }

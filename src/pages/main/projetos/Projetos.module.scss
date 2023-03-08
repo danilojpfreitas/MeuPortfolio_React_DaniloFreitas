@@ -1,0 +1,36 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 2.5rem 0;
+    box-shadow: 2px 1px 10px 1px var(--color-white);
+    background-color: var(--color-white);
+    & section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    &__titulo {
+        color: var(--color-h2);
+        font-size: 30px;
+        margin-bottom: 4rem;
+        text-transform: uppercase;
+    }
+    &__button {
+        margin: 1.5rem 0;
+        color: var(--color-h4);
+        border-color: var(--color-white);
+        border-radius: 1rem;
+        width: 20rem;
+        height: 5rem;
+        font-size: 1.4rem;
+        cursor: pointer;
+        &:hover {
+            color: var(--color-black);
+        }
+    }
+}

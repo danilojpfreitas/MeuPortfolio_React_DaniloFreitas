@@ -4,8 +4,8 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import ButtonResumo from 'pages/main/resumo'
 import Header from 'components/header'
 import Footer from 'components/footer'
-import Contato from 'components/contato'
-import PrincipaisProjetos from './principaisProjetos'
+import Contatos from 'components/contatos'
+import PrincipaisProjetos from './projetos'
 
 export default function Main() {
 
@@ -43,7 +43,7 @@ export default function Main() {
 
     <PrincipaisProjetos />
 
-    <Contato />
+    <Contatos />
 
     <Footer />
     </>

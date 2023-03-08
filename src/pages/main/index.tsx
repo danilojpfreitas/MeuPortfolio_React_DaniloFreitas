@@ -11,7 +11,6 @@ export default function Main() {
 
     return (
         <>
-        <Header />
 
     <main>
         <section className={styles.main}>
@@ -44,8 +43,6 @@ export default function Main() {
     <PrincipaisProjetos />
 
     <Contatos />
-
-    <Footer />
     </>
     )
 }

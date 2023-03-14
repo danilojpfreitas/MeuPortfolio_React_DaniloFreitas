@@ -1,6 +1,6 @@
 import styles from './Projetos.module.scss'
 import projetos from 'data/projetos.json'
-import Projeto from '../../../components/projeto'
+import Projeto from 'components/projeto'
 
 export default function Projetos() {
 

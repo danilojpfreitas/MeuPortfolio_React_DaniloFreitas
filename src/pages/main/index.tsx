@@ -1,9 +1,5 @@
 import styles from './Main.module.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 import ButtonResumo from 'pages/main/resumo'
-import Header from 'components/header'
-import Footer from 'components/footer'
 import Contatos from 'components/contatos'
 import PrincipaisProjetos from './projetos'
 

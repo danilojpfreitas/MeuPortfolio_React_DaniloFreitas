@@ -1,26 +1,32 @@
 import styles from './Header.module.scss'
+import { ReactComponent as Bars } from 'assets/header/bars-solid.svg'
+import { useState } from 'react';
+import MenuHamburguerAtivo from './menuHamburguer';
+import classNames from 'classnames';
+import Itens from './itens';
 
 export default function Header(){
+
+    const [menu, setMenu] = useState(false);
+
+    const ToggleMode = () => {
+        setMenu(!menu)
+    }
+
     return (
         <header className={styles.header}>
-            <div className={styles.header__title}>
+            <div className={styles.title}>
                 <a href="./index.html"><h2>Danilo Freitas</h2></a>
             </div>
-            <ul id="nav">
-                <li>
-                    <a target="_blank" href="https://github.com/danilojpfreitas">github</a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/danilo-freitas-dev/">linkedin</a>
-                </li>
-                <li>
-                    <a target="_blank" href="mail:danilojpfreitas@gmail.com">email</a>
-                </li>
-                <li>
-                    <a href="#contato">contato</a>
-                </li>
+
+            <ul className={styles.itens}>
+                <Itens/>
             </ul>
-                {/* <button className={styles.header__button02} aria-expanded="false"><FontAwesomeIcon icon={faBars} />  Menu</button> */}
+
+            <div className={ menu ? styles.menuHamburguer__ativo : styles.header__menuHamburguer__desativo}>
+                <a className={styles.header__menuHamburguer__icon}></a>
+                
+            </div>
         </header>
     )
 }

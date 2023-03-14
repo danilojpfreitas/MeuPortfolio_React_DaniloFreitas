@@ -1,5 +1,5 @@
 import styles from './Resumo.module.scss'
-import { ReactComponent as Caret } from '../../../assets/resumo/caret-down-solid.svg'
+import { ReactComponent as Caret } from 'assets/resumo/caret-down-solid.svg'
 import resumoJson from '../../../data/resumo.json'
 import { useState } from 'react';
 
@@ -9,11 +9,11 @@ export default function ButtonResumo() {
     function displayAbout() {
         if (resumo === false) {
             return setResumo(true)
-        }
-        else {
+        } else {
             return setResumo(false) 
         }
     }
+
     const [resumo, setResumo] = useState(false);
 
     return (

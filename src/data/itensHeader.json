@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "github",
+        "link": "https://github.com/danilojpfreitas"
+    },
+    {
+        "id": 2,
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/danilo-freitas-dev/"
+    },
+    {
+        "id": 3,
+        "name": "email",
+        "link": "mail:danilojpfreitas@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "contato",
+        "link": ".contato"
+    }
+
+]
